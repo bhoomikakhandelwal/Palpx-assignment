@@ -1,0 +1,95 @@
+h1, p {
+  font-family: Lato;
+}
+.main-header{
+  background-color: #fff;
+  color:#000;
+}
+.title{
+  font-weight: 600;
+}
+.main-div{
+  height: 400px;
+}
+.mdl-layout__header-row .sub-menu .mdl-navigation__link{
+  color:#000;
+}
+
+a:hover,a:active{
+  text-decoration: underline;
+}
+.innovation-heading{
+  text-align: center;
+  margin: 60px 0px;
+  font-weight: bold;
+}
+.innovation-para{
+  margin: 0px 333px;
+  text-align: justify;
+}
+.video-main{
+  margin: 20px 8px;
+}
+.video-text{
+  padding: 8px 0px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+.video-btn{
+  line-height: 30px;
+  height: 28px;
+  text-transform: capitalize;
+  background-color: rgb(158, 158, 158);
+  color:#fff;
+}
+.video-btn:hover{
+  background-color: rgb(158, 158, 158);
+  color:#fff;
+}
+.img-heading{
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.img-text--tier1{
+  margin-left:135px;
+}
+
+.footer{
+  width:100%;
+  padding: 15px 0px;
+margin: 0px 8px;
+border-top:2px solid #00000042;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .main-div{
+    height: 235px;
+  }
+  .innovation-heading{
+  font-size:2em;
+  margin: 25px 0px;
+  }
+  .innovation-para{
+    margin:0px;
+  }
+  .img-text--tier1{
+    margin-top:-24px;
+  }
+  .mdl-layout:not(.is-large-screen) .mdl-layout--large-screen-only{
+    display:none;
+  }
+  .mdl-layout:not(.is-small-screen) .mdl-layout--small-screen-only{
+    display:flex;
+    margin-left:-36px;
+  }
+  .footer-menu{
+    width: 100%;
+  background-color: #3333338a;
+    margin: 0px !important;
+  }
+  .footer-menu h4{
+    text-align: center;
+    color:#fff;
+    width:100%;
+  }
+}
